@@ -1,6 +1,6 @@
 import user_interface as user
 import model_sum as model
-import model_div 
+import modelDiv
 import model_mult
 import model_sub
 
@@ -26,8 +26,8 @@ def button_click():
         user.view_data(result)
     ###
     if value_model == 1:
-        model_div.init(value_a, value_b)
-        result = model_div.do_it() #
+        modelDiv.init(value_a, value_b)
+        result = modelDiv.do_it() #
         user.view_data(result)
     ###
     if value_model == 2:
